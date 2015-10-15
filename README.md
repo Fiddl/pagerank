@@ -19,11 +19,30 @@ bin/hadoop jar <location of compile jar> <command operation>
 
 ## Usage
 ```
-init <input directory> <output directory> <#reducers>
-diff <input directory> <output directory> <#reducers>
-finish <input directory <output directory> <#reducers>
-composite <input directory> <output directory> <interim directory 1> <interim directory 2> 
-          <difference directory> <#reducers>
-compositeWithNames <input directory> <output directory> <interim directory 1> <interim directory 2>
-          <difference directory> <names directory> <#reducers>
+init      <input directory>
+          <output directory>
+          <#reducers>
+          
+diff      <input directory>
+          <output directory>
+          <#reducers>
+          
+finish    <input directory
+          <output directory>
+          <#reducers>
+          
+composite <input directory>
+          <output directory>
+          <interim directory 1>
+          <interim directory 2> 
+          <difference directory>
+          <#reducers>
+          
+compositeWithNames  <input directory>
+                    <output directory>
+                    <interim directory 1>
+                    <interim directory 2>
+                    <difference directory>
+                    <names directory>
+                    <#reducers>
 ```
