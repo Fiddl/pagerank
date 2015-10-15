@@ -10,12 +10,12 @@ node-id: to-node1 to-node2 ...
 
 
 ## Motivation
-Implementation of a distributed systems project to explore the Apache Hadoop framework.
+Implementation of a distributed systems project assignment to explore the Apache Hadoop framework.
 
 ## Installation
-compile the source in an executable jar file through your method of choice
-/bin/hdfs dfs -put <location of input direcotry> input
-bin/hadoop jar <location of compile jar> <command operation>
+* compile the source into an executable jar file through your method of choice
+* /bin/hdfs dfs -put <location of input direcotry> input
+* bin/hadoop jar <location of compile jar> <command operation>
 
 ## Usage
 ```
