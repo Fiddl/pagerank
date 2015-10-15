@@ -46,8 +46,8 @@ public class NamesMapper extends Mapper<LongWritable, Text, Text, Text> {
 		String line = value.toString(); // Converts Line to a String
 		String[] sections = line.split("\t");
 		/*
-		 * TODO output key:-rank, value: node
-		 * See IterMapper for hints on parsing the output of IterReducer.
+		 * input: 
+		 * emit key: rank, value: node
 		 */
 		String node = sections[0].trim(); // node
 		String outVal = sections[1].trim(); // pageRank
